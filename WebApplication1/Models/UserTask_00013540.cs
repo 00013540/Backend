@@ -12,7 +12,7 @@ namespace WebApplication1.Models
 
         public DateTimeOffset DueDate { get; set; }
 
-        public int? Status { get; set; }
+        public StatusEnum_00013540 Status { get; set; }
 
         public PrioritiesEnum_00013540 Priority { get; set; } 
     }

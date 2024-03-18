@@ -21,7 +21,7 @@ namespace WebApplication1.DbContexts
                     Title = "Complete project proposal",
                     Description = "Finish writing the project proposal document.",
                     DueDate = DateTime.Now.AddDays(7),
-                    Status = 1,
+                    Status = StatusEnum_00013540.New,
                     Priority = PrioritiesEnum_00013540.High
                 },
                 new UserTask_00013540
@@ -30,7 +30,7 @@ namespace WebApplication1.DbContexts
                     Title = "Meeting with client",
                     Description = "Discuss project requirements with the client.",
                     DueDate = DateTime.Now.AddDays(3),
-                    Status = 2,
+                    Status = StatusEnum_00013540.New,
                     Priority = PrioritiesEnum_00013540.Medium
                 },
                 new UserTask_00013540
@@ -39,7 +39,7 @@ namespace WebApplication1.DbContexts
                     Title = "Prepare presentation",
                     Description = "Create a presentation for the project update meeting.",
                     DueDate = DateTime.Now.AddDays(10),
-                    Status = 3,
+                    Status = StatusEnum_00013540.New,
                     Priority = PrioritiesEnum_00013540.Low
                 }
             );

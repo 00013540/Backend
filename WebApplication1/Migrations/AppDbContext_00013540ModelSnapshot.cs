@@ -40,7 +40,7 @@ namespace WebApplication1.Migrations
                     b.Property<int>("Priority")
                         .HasColumnType("integer");
 
-                    b.Property<int?>("Status")
+                    b.Property<int>("Status")
                         .HasColumnType("integer");
 
                     b.Property<string>("Title")
@@ -56,27 +56,27 @@ namespace WebApplication1.Migrations
                         {
                             Id = 1,
                             Description = "Finish writing the project proposal document.",
-                            DueDate = new DateTimeOffset(new DateTime(2024, 3, 25, 19, 12, 28, 432, DateTimeKind.Unspecified).AddTicks(2771), new TimeSpan(0, 5, 0, 0, 0)),
+                            DueDate = new DateTimeOffset(new DateTime(2024, 3, 25, 21, 3, 40, 271, DateTimeKind.Unspecified).AddTicks(7824), new TimeSpan(0, 5, 0, 0, 0)),
                             Priority = 0,
-                            Status = 1,
+                            Status = 0,
                             Title = "Complete project proposal"
                         },
                         new
                         {
                             Id = 2,
                             Description = "Discuss project requirements with the client.",
-                            DueDate = new DateTimeOffset(new DateTime(2024, 3, 21, 19, 12, 28, 432, DateTimeKind.Unspecified).AddTicks(2830), new TimeSpan(0, 5, 0, 0, 0)),
+                            DueDate = new DateTimeOffset(new DateTime(2024, 3, 21, 21, 3, 40, 271, DateTimeKind.Unspecified).AddTicks(7859), new TimeSpan(0, 5, 0, 0, 0)),
                             Priority = 1,
-                            Status = 2,
+                            Status = 0,
                             Title = "Meeting with client"
                         },
                         new
                         {
                             Id = 3,
                             Description = "Create a presentation for the project update meeting.",
-                            DueDate = new DateTimeOffset(new DateTime(2024, 3, 28, 19, 12, 28, 432, DateTimeKind.Unspecified).AddTicks(2834), new TimeSpan(0, 5, 0, 0, 0)),
+                            DueDate = new DateTimeOffset(new DateTime(2024, 3, 28, 21, 3, 40, 271, DateTimeKind.Unspecified).AddTicks(7861), new TimeSpan(0, 5, 0, 0, 0)),
                             Priority = 2,
-                            Status = 3,
+                            Status = 0,
                             Title = "Prepare presentation"
                         });
                 });
