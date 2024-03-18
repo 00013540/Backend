@@ -9,7 +9,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace WebApplication1.Migrations
 {
     /// <inheritdoc />
-    public partial class firstMigration : Migration
+    public partial class initialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -36,9 +36,9 @@ namespace WebApplication1.Migrations
                 columns: new[] { "Id", "Description", "DueDate", "Priority", "Status", "Title" },
                 values: new object[,]
                 {
-                    { 1, "Finish writing the project proposal document.", new DateTimeOffset(new DateTime(2024, 3, 24, 21, 17, 26, 596, DateTimeKind.Unspecified).AddTicks(3458), new TimeSpan(0, 5, 0, 0, 0)), 0, 1, "Complete project proposal" },
-                    { 2, "Discuss project requirements with the client.", new DateTimeOffset(new DateTime(2024, 3, 20, 21, 17, 26, 596, DateTimeKind.Unspecified).AddTicks(3503), new TimeSpan(0, 5, 0, 0, 0)), 1, 2, "Meeting with client" },
-                    { 3, "Create a presentation for the project update meeting.", new DateTimeOffset(new DateTime(2024, 3, 27, 21, 17, 26, 596, DateTimeKind.Unspecified).AddTicks(3506), new TimeSpan(0, 5, 0, 0, 0)), 2, 3, "Prepare presentation" }
+                    { 1, "Finish writing the project proposal document.", new DateTimeOffset(new DateTime(2024, 3, 25, 19, 12, 28, 432, DateTimeKind.Unspecified).AddTicks(2771), new TimeSpan(0, 5, 0, 0, 0)), 0, 1, "Complete project proposal" },
+                    { 2, "Discuss project requirements with the client.", new DateTimeOffset(new DateTime(2024, 3, 21, 19, 12, 28, 432, DateTimeKind.Unspecified).AddTicks(2830), new TimeSpan(0, 5, 0, 0, 0)), 1, 2, "Meeting with client" },
+                    { 3, "Create a presentation for the project update meeting.", new DateTimeOffset(new DateTime(2024, 3, 28, 19, 12, 28, 432, DateTimeKind.Unspecified).AddTicks(2834), new TimeSpan(0, 5, 0, 0, 0)), 2, 3, "Prepare presentation" }
                 });
         }
 
