@@ -12,8 +12,8 @@ using WebApplication1.DbContexts;
 namespace WebApplication1.Migrations
 {
     [DbContext(typeof(AppDbContext_00013540))]
-    [Migration("20240318160340_initialMigration")]
-    partial class initialMigration
+    [Migration("20240318173644_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -59,7 +59,7 @@ namespace WebApplication1.Migrations
                         {
                             Id = 1,
                             Description = "Finish writing the project proposal document.",
-                            DueDate = new DateTimeOffset(new DateTime(2024, 3, 25, 21, 3, 40, 271, DateTimeKind.Unspecified).AddTicks(7824), new TimeSpan(0, 5, 0, 0, 0)),
+                            DueDate = new DateTimeOffset(new DateTime(2024, 3, 25, 22, 36, 44, 678, DateTimeKind.Unspecified).AddTicks(5584), new TimeSpan(0, 5, 0, 0, 0)),
                             Priority = 0,
                             Status = 0,
                             Title = "Complete project proposal"
@@ -68,18 +68,18 @@ namespace WebApplication1.Migrations
                         {
                             Id = 2,
                             Description = "Discuss project requirements with the client.",
-                            DueDate = new DateTimeOffset(new DateTime(2024, 3, 21, 21, 3, 40, 271, DateTimeKind.Unspecified).AddTicks(7859), new TimeSpan(0, 5, 0, 0, 0)),
+                            DueDate = new DateTimeOffset(new DateTime(2024, 3, 21, 22, 36, 44, 678, DateTimeKind.Unspecified).AddTicks(5621), new TimeSpan(0, 5, 0, 0, 0)),
                             Priority = 1,
-                            Status = 0,
+                            Status = 1,
                             Title = "Meeting with client"
                         },
                         new
                         {
                             Id = 3,
                             Description = "Create a presentation for the project update meeting.",
-                            DueDate = new DateTimeOffset(new DateTime(2024, 3, 28, 21, 3, 40, 271, DateTimeKind.Unspecified).AddTicks(7861), new TimeSpan(0, 5, 0, 0, 0)),
+                            DueDate = new DateTimeOffset(new DateTime(2024, 3, 28, 22, 36, 44, 678, DateTimeKind.Unspecified).AddTicks(5623), new TimeSpan(0, 5, 0, 0, 0)),
                             Priority = 2,
-                            Status = 0,
+                            Status = 2,
                             Title = "Prepare presentation"
                         });
                 });

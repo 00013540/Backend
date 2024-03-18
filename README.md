@@ -14,6 +14,7 @@
 4. Microsoft.EntityFrameworkCore.Tools - Version 8.0.3
 5. Npgsql.EntityFrameworkCore.PostgreSQL - Version 8.0.2
 6. Swashbuckle.AspNetCore - Version 6.4.0
+7. Microsoft.AspNetCore.Cors Version 2.2.0
 
 ## Description of done work:
 
